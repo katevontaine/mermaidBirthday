@@ -1,37 +1,33 @@
 body{
-  font-family: 'Josefin Sans', sans-serif;
-  font-family: 'Shadows Into Light', cursive;
-  font-family: 'Permanent Marker', cursive;
-  font-family: 'Poiret One', cursive;
-  font-family: 'Shadows Into Light Two', cursive;
-  font-family: 'Happy Monkey', cursive;
-  font-family: 'Bubbler One', sans-serif;
-  font-family: 'Codystar', cursive;
-  font-family: 'Emilys Candy', cursive;
   padding: 0;
+  margin: 0 auto;
+}
 
-  color: #c3a343;
+p, h3, h4, h5 {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  opacity: .75;
+}
 
-
-  margin: 0;
+h1, h2 {
+  font-family: 'Permanent Marker', cursive;
 }
 
 .header {
-  height: 500px;
-  position: absolute;
-  top: 0;
-  z-index: 1;
+  height: auto;
+  display: block;
+  text-align: center;
 }
 
 .overlay {
-  z-index: 5;
-  height: 500px;
+  height: auto;
+  text-align: center;
 }
 
 .header img {
   width: 100%;
-  z-index: 1;
   opacity: 1;
+  overflow: hidden;
 }
 
 .gold-text {
@@ -48,21 +44,71 @@ body{
 }
 
 .birthdayInformation {
-  height: 300px;
+  height: auto;
+  text-align: center;
+}
+
+.birthdayInformation img{
+  max-height: 300px;
 }
 
 .flatLayPicture {
-  height: 300px;
+  height: auto;;
+  text-align: center;
 }
 
 .flatLayPicture img {
-  max-height: 300px
+  width: 100%;
 }
 
 .crownSection {
-  height: 300px;
+  height: 600px;
+  text-align: center;
 }
 
 .contactSection {
-  height: 300px;
+  height: auto;
+  text-align: center;
+}
+
+.contactBar {
+  height: auto;
+  margin-top: 20px;
+}
+
+.aboutMe {
+  width: 25%;
+  display: inline-block;
+}
+
+ .booking {
+  width: 65%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#mc_embed_signup {
+  padding: 15px;
+  text-align: center;
+}
+
+#mc_embed_signup label{
+  font-size: 24px;
+  font-family: 'Permanent Marker';
+}
+
+#mc_embed_signup input{
+  display: inline;
+  color: #c3a343;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent),
+  url(img/goldfoil7.png) repeat;
+  background: -o-linear-gradient(transparent, transparent);
+  -webkit-background-clip: text;
+  border-bottom: : 1px solid #c3a343;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 5px;
+  width: 150px;
 }
