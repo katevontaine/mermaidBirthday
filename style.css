@@ -3,10 +3,13 @@ body{
   margin: 0 auto;
 }
 
+div {
+  margin: 0;
+}
+
 p, h3, h4, h5 {
   font-family: 'Roboto', sans-serif;
   color: black;
-  opacity: .75;
 }
 
 h1, h2 {
@@ -46,6 +49,18 @@ h1, h2 {
 .birthdayInformation {
   height: auto;
   text-align: center;
+  margin-bottom: 40px;
+}
+
+.purpleInformation {
+  text-align: center;
+  padding: 40px 0 40px 0;
+  text-align: center;
+  height: 150px;
+}
+
+.purpleInformation h2, h3 {
+  color: white;
 }
 
 .birthdayInformation img{
@@ -53,8 +68,9 @@ h1, h2 {
 }
 
 .flatLayPicture {
-  height: auto;;
+  height: 500px;
   text-align: center;
+  overflow: hidden;
 }
 
 .flatLayPicture img {
@@ -69,11 +85,21 @@ h1, h2 {
 .contactSection {
   height: auto;
   text-align: center;
+  padding: 20px 0 20px 0;
+  color: white;
+}
+
+.contactSection P {
+  color: white;
+}
+
+.picSection {
+  padding: 40px 0 40px 0;
 }
 
 .contactBar {
   height: auto;
-  margin-top: 20px;
+  padding: 30px 0 30px 0;
 }
 
 .aboutMe {
@@ -111,4 +137,26 @@ h1, h2 {
   border-right: none;
   padding: 5px;
   width: 150px;
+}
+
+#linearBg2 {
+  /* fallback */
+  background-color: #1a82f7;
+  background: url(images/linear_bg_2.png);
+  background-repeat: repeat-x;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a96da3), to(#cfcfea));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #cfcfea, #a96da3);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #cfcfea, #a96da3);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #cfcfea, #a96da3);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #cfcfea, #a96da3);
 }
