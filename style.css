@@ -1,0 +1,68 @@
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-family: 'Happy Monkey', cursive;
+  font-family: 'Bubbler One', sans-serif;
+  font-family: 'Codystar', cursive;
+  font-family: 'Emilys Candy', cursive;
+  padding: 0;
+
+  color: #c3a343;
+
+
+  margin: 0;
+}
+
+.header {
+  height: 500px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.overlay {
+  z-index: 5;
+  height: 500px;
+}
+
+.header img {
+  width: 100%;
+  z-index: 1;
+  opacity: 1;
+}
+
+.gold-text {
+    color:#c3a343;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+    url(img/goldfoil7.png) repeat;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+}
+
+.gold-default {
+  color: #c3a343;
+}
+
+.birthdayInformation {
+  height: 300px;
+}
+
+.flatLayPicture {
+  height: 300px;
+}
+
+.flatLayPicture img {
+  max-height: 300px
+}
+
+.crownSection {
+  height: 300px;
+}
+
+.contactSection {
+  height: 300px;
+}
